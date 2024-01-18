@@ -1,21 +1,18 @@
 <script>
 export default {
-    data() {
-        return {
-
-        };
-    },
-    methods: {
-
-    }
-}
+  data() {
+    return {};
+  },
+  methods: {},
+};
 </script>
 
 <template>
-    <footer>
-        FOOTER
-    </footer>
+  <footer>
+    <div class="center">
+      <div class="container">FOOTER</div>
+    </div>
+  </footer>
 </template>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
