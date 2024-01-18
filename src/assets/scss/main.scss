@@ -17,3 +17,6 @@
 .centered-vertically-div {
   @include centered_vertically_div;
 }
+.with-cursor-pointer {
+  cursor: pointer;
+}
