@@ -71,13 +71,4 @@ export default {
 .h-75 {
   height: 75%;
 }
-.ps-8 {
-  padding-left: 8px;
-}
-.pe-8 {
-  padding-right: 8px;
-}
-.smaller {
-  font-size: 0.8em;
-}
 </style>
