@@ -10,8 +10,13 @@ export default {
 <template>
   <header>
     <div class="center header-height">
-      <div class="container">
-        <div class="logo-container h-80">HEADER</div>
+      <div class="container h-100 spaced-centered-divs">
+        <div class="h-100">
+          <div class="h-100 centered-vertically-div">
+            <img class="h-75" src="../assets/img/dc-logo.png" alt="" />
+          </div>
+        </div>
+        <div>lol</div>
       </div>
     </div>
   </header>
@@ -22,5 +27,8 @@ export default {
 @use "../assets/scss/partials/mixins.scss" as *;
 .header-height {
   height: $header_height;
+}
+.h-75 {
+  height: 75%;
 }
 </style>

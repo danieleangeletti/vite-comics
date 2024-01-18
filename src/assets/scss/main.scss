@@ -1,11 +1,19 @@
 @use "./partials/variables.scss" as *;
 @use "./partials/mixins.scss" as *;
 
-// CONTAINER
 .container {
   width: $content_container;
   height: 100%;
 }
 .center {
-  @include centered_div;
+  @include centered_horizontally_div;
+}
+.spaced-centered-divs {
+  @include spaced_centered_divs;
+}
+.h-100 {
+  height: 100%;
+}
+.centered-vertically-div {
+  @include centered_vertically_div;
 }

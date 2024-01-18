@@ -1,4 +1,16 @@
-@mixin centered_div {
+// CENTRA IL DIV ORIZZONTALMENTE
+@mixin centered_horizontally_div {
   display: flex;
   justify-content: center;
+}
+// CENTRA IL DIV VERTICALMENTE
+@mixin centered_vertically_div {
+  display: flex;
+  align-items: center;
+}
+// DISTANZIA I DIV
+@mixin spaced_centered_divs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
