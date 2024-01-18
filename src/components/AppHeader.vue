@@ -9,7 +9,7 @@ export default {
 
 <template>
   <header>
-    <div class="center">
+    <div class="center header-height">
       <div class="container">HEADER</div>
     </div>
   </header>

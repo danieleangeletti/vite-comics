@@ -9,8 +9,16 @@ export default {
 
 <template>
   <main>
-    <div class="center">
-      <div class="container">MAIN</div>
+    <div class="center main-one-bg">
+      <div class="container">
+        <div class="main-one-height">MAIN 1</div>
+      </div>
+    </div>
+
+    <div class="center main-two-bg">
+      <div class="container">
+        <div class="main-two-height">MAIN 2</div>
+      </div>
     </div>
   </main>
 </template>
