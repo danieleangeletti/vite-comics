@@ -1,44 +1,11 @@
-@use "partials/variables.scss" as *;
-@use "partials/mixins.scss" as *;
+@use "./partials/variables.scss" as *;
+@use "./partials/mixins.scss" as *;
 
 // CONTAINER
 .container {
   width: $content_container;
+  height: 100%;
 }
 .center {
   @include centered_div;
-}
-
-// HEADER
-.header-height {
-  height: $header_height;
-}
-
-// MAIN
-.main-one-height {
-  height: $main_one_height;
-}
-.main-one-bg {
-  background-color: $main_one_bg;
-}
-.main-two-height {
-  height: $main_two_height;
-}
-.main-two-bg {
-  background-color: $main_two_bg;
-}
-.main-three-bg {
-  background-color: black;
-}
-
-// FOOTER
-.footer-one-height {
-  height: $footer_one_height;
-}
-.footer-two-height {
-  height: $footer_two_height;
-}
-
-.footer-two-bg {
-  background-color: $footer_two_bg;
 }
