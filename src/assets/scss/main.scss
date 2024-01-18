@@ -23,6 +23,9 @@
 .white {
   color: white;
 }
+.footer-grey {
+  color: #797758;
+}
 .d-flex {
   display: flex;
 }
@@ -38,6 +41,30 @@
 .pe-4 {
   padding-right: 4px;
 }
+.pt-24 {
+  padding-top: 24px;
+}
+.pb-24 {
+  padding-bottom: 24px;
+}
+.mb-2 {
+  margin-bottom: 2px;
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
 .smaller {
   font-size: 0.8em;
+}
+.smaller-plus {
+  font-size: 0.9em;
+}
+.no-decoration {
+  list-style: none;
+}
+.no-underlining {
+  text-decoration: none;
 }
