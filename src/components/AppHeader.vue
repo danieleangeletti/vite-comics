@@ -43,7 +43,7 @@ export default {
 <template>
   <header>
     <div class="center header-height">
-      <div class="container h-100 spaced-centered-divs">
+      <div class="h-100 container spaced-centered-divs">
         <div class="h-100">
           <div class="h-100 centered-vertically-div">
             <img class="h-75" src="../assets/img/dc-logo.png" alt="" />

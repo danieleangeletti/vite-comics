@@ -85,6 +85,23 @@ export default {
           link: "DC Power Visa",
         },
       ],
+      social: [
+        {
+          img: "../../src/assets/img/footer-facebook.png",
+        },
+        {
+          img: "../../src/assets/img/footer-twitter.png",
+        },
+        {
+          img: "../../src/assets/img/footer-youtube.png",
+        },
+        {
+          img: "../../src/assets/img/footer-pinterest.png",
+        },
+        {
+          img: "../../src/assets/img/footer-periscope.png",
+        },
+      ],
     };
   },
   methods: {},
@@ -139,8 +156,22 @@ export default {
     </div>
 
     <div class="center footer-two-height footer-two-bg">
-      <div class="h-100 container">
-        <div>FOOTER 2</div>
+      <div class="container h-100 spaced-centered-divs">
+        <div class="h-100 centered-vertically-div">
+          <div>
+            <button
+              class="border-botton-color footer-two-bg white with-cursor-pointer ps-8 pt-8 pb-8 pe-8"
+            >
+              SIGN-UP NOW!
+            </button>
+          </div>
+        </div>
+        <div class="h-100 centered-vertically-div">
+          <div class="footer-blu ps-8 pe-8">FOLLOW US</div>
+          <div v-for="(elemento, i) in social" class="ps-4 pe-4">
+            <a href=""><img :src="elemento.img" alt="" /></a>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
@@ -163,5 +194,11 @@ export default {
 }
 .col-footer-width {
   width: calc(100% / 5.8);
+}
+.border-botton-color {
+  border: 3px solid $footer_blu;
+}
+.h-100px {
+  height: 100px;
 }
 </style>
