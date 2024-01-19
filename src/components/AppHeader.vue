@@ -70,6 +70,7 @@ export default {
         </div>
       </div>
     </div>
+    <div class="jumbo-height"></div>
   </header>
 </template>
 
@@ -78,6 +79,11 @@ export default {
 @use "../assets/scss/partials/mixins.scss" as *;
 .header-height {
   height: $header_height;
+}
+.jumbo-height {
+  height: $footer_one_height;
+  background-image: url(../assets/img/jumbotron.jpg);
+  background-size: cover;
 }
 .h-75 {
   height: 75%;

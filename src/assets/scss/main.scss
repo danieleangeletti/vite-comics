@@ -47,8 +47,14 @@
 .pb-8 {
   padding-bottom: 8px;
 }
-.ps-4 {
-  padding-left: 4px;
+.ps-8 {
+  padding-left: 8px;
+}
+.ps-16 {
+  padding-left: 16px;
+}
+.pe-16 {
+  padding-right: 16px;
 }
 .pe-4 {
   padding-right: 4px;
@@ -103,4 +109,7 @@
 }
 .margin-trentadue {
   margin: 0 16px;
+}
+.no-border {
+  border: 0px;
 }
