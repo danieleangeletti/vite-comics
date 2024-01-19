@@ -151,6 +151,7 @@ export default {
               </li>
             </ul>
           </div>
+          <div class="grow-one dc-logo-bg"></div>
         </div>
       </div>
     </div>
@@ -200,5 +201,10 @@ export default {
 }
 .h-100px {
   height: 100px;
+}
+.dc-logo-bg {
+  background-image: url("../assets/img/dc-logo-bg.png");
+  background-size: cover;
+  background-position: center;
 }
 </style>

@@ -78,7 +78,4 @@ export default {
 .h-40 {
   height: 40%;
 }
-.grow-one {
-  flex-grow: 1;
-}
 </style>
