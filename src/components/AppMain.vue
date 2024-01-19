@@ -127,7 +127,7 @@ export default {
             v-for="(card, i) in cards"
             :key="i"
             :product="card"
-            class="width-a-sixth white"
+            class="width-a-sixth white margin-trentadue"
           />
         </div>
       </div>

@@ -68,6 +68,9 @@
 .mb-16 {
   margin-bottom: 16px;
 }
+.mb-32 {
+  margin-bottom: 32px;
+}
 .smaller {
   font-size: 0.8em;
 }
@@ -93,8 +96,11 @@
   flex-wrap: wrap;
 }
 .width-a-sixth {
-  width: calc(70vw / 6);
+  width: calc((70vw / 6) - 32px);
 }
 .height-a-sixth {
-  height: calc(70vw / 6);
+  height: calc((70vw / 6) - 32px);
+}
+.margin-trentadue {
+  margin: 0 16px;
 }

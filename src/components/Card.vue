@@ -16,7 +16,7 @@ export default {
         <img :src="product.thumb" :alt="product.series" class="w-100 h-100" />
       </div>
 
-      <h6 class="mb-16">
+      <h6 class="mb-32">
         {{ product.series }}
       </h6>
     </div>
