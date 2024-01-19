@@ -121,7 +121,7 @@ export default {
 <template>
   <main>
     <div class="center main-one-bg">
-      <div class="container">
+      <div class="container pt-24 pb-24">
         <div class="d-flex wrap">
           <Card
             v-for="(card, i) in cards"
@@ -171,8 +171,5 @@ export default {
 }
 .h-40 {
   height: 40%;
-}
-.width-a-sixth {
-  width: calc(100% / 6);
 }
 </style>

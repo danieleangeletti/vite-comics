@@ -12,9 +12,11 @@ export default {
 <template>
   <div class="single-card">
     <div>
-      <img :src="product.thumb" :alt="product.series" class="w-100" />
+      <div class="width-a-sixth height-a-sixth mb-16">
+        <img :src="product.thumb" :alt="product.series" class="w-100 h-100" />
+      </div>
 
-      <h6>
+      <h6 class="mb-16">
         {{ product.series }}
       </h6>
     </div>

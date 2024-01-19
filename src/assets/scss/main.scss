@@ -92,3 +92,9 @@
 .wrap {
   flex-wrap: wrap;
 }
+.width-a-sixth {
+  width: calc(70vw / 6);
+}
+.height-a-sixth {
+  height: calc(70vw / 6);
+}
