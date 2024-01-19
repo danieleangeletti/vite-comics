@@ -122,19 +122,15 @@ export default {
   <main>
     <div class="center main-one-bg">
       <div class="container pt-24 pb-24 relative">
-        <div class="absolute">
-          <button
-            class="white ps-16 pt-8 pb-8 pe-16 with-cursor-pointer main-two-bg no-border"
-          >
-            CURRENT SERIES
-          </button>
+        <div class="absolute white ps-16 pt-8 pb-8 pe-16 main-two-bg">
+          CURRENT SERIES
         </div>
         <div class="d-flex wrap">
           <Card
             v-for="(card, i) in cards"
             :key="i"
             :product="card"
-            class="width-a-sixth white margin-trentadue"
+            class="width-a-sixth white margin-cards"
           />
         </div>
         <div class="center">
