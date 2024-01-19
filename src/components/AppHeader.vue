@@ -34,9 +34,17 @@ export default {
           name: "SHOPS",
         },
       ],
+      is_hovering: null,
     };
   },
-  methods: {},
+  methods: {
+    change_is_hovering(i) {
+      this.is_hovering = i;
+    },
+    cancel_hovering(i) {
+      this.is_hovering = null;
+    },
+  },
 };
 </script>
 
@@ -53,6 +61,9 @@ export default {
           <div
             v-for="(elem, i) in nav"
             class="h-100 centered-vertically-div ps-8 pe-8 smaller with-cursor-pointer"
+            @mouseover="change_is_hovering(i)"
+            @mouseout="cancel_hovering(i)"
+            :class="{ hovering: is_hovering == i }"
           >
             {{ elem.name }}
           </div>
@@ -70,5 +81,9 @@ export default {
 }
 .h-75 {
   height: 75%;
+}
+.hovering {
+  color: $main_two_bg;
+  border-bottom: 3px solid $main_two_bg;
 }
 </style>
