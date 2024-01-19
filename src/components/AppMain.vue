@@ -121,8 +121,8 @@ export default {
 <template>
   <main>
     <div class="center main-one-bg">
-      <div class="container pt-24 pb-24">
-        <div>
+      <div class="container pt-24 pb-24 relative">
+        <div class="absolute">
           <button
             class="white ps-16 pt-8 pb-8 pe-16 with-cursor-pointer main-two-bg no-border"
           >
@@ -185,5 +185,12 @@ export default {
 }
 .h-40 {
   height: 40%;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  top: calc(-31.5px / 2);
 }
 </style>
